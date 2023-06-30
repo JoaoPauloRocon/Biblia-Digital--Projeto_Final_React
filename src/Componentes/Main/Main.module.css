@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter&family=Ysabeau+SC&display=swap');
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.main{
+  background-color: #EBEEF0;
+  flex-grow: 4;
+
+}
+
+.card {
+  margin: 10px;
+  padding: 15px;
+  background-color: #222e62;
+  width: 140px;
+  cursor: pointer;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.8);
+  color: #fff;
+  border-radius: 10px;
+  text-decoration: none;
+  
+}
+
+.livros{
+  text-decoration: none;
+  font-size: 20px;
+  color: #fff;
+  font-family: 'Ysabeau SC', sans-serif;
+  font-weight: bold;
+}
+
+.sobre{
+  text-decoration: none;
+  font-size: 20px;
+  color: #dba11d;
+  font-family: 'Ysabeau SC', sans-serif;
+  font-weight: bold;
+  width: 700px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+
+

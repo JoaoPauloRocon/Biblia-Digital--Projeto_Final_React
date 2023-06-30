@@ -1,24 +1,38 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Footer from "./Componentes/Footer/Footer";
+import Header from "./Componentes/Header/Header";
+import Main from "./Componentes/Main/Main";
+import LivroDetalhes from "./Pages/LivroDetalhes/LivroDetalhes";
+import TodosLivros from "./Pages/todosLivros/todosLivros";
+import LiturgiaDoDia from "./Pages/LiturgiaDiaria/LiturgiaDiaria";
+import Error404 from "./Pages/Error404/Error404";
+import './App.css'
+
+
+
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+
+      <BrowserRouter>
+        <Header />
+
+        <Routes>
+          <Route path="/" element={<Main />} />
+          <Route path="/*" element={<Error404 />} />
+          <Route path="/livro" element={<TodosLivros />} />
+          <Route path="/livro/:id" element={<LivroDetalhes />} />
+          <Route path="/liturgia" element={<LiturgiaDoDia />} />
+        </Routes>
+        <Footer />
+      </BrowserRouter>
+
     </div>
+
+
   );
 }
 

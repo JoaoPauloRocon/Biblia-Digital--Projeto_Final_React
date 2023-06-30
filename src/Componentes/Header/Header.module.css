@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter&family=Ysabeau+SC&display=swap');
+
+.header {
+    background-color: #222e62;
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Ysabeau SC', sans-serif;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+  }
+  
+  
+  .logo {
+    width: 100px; 
+    height: auto; 
+   
+  }
+  .navbar {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    text-decoration: none;
+  }
+  
+  .navbar li {
+    margin-left: 16px;
+  }
+  
+  .navbar a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    text-decoration: none;
+  }
+  
+  .navbar a:hover {
+    text-decoration: underline;
+  }
+
+
+  

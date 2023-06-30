@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter&family=Ysabeau+SC&display=swap');
+
+.footer {
+  /*position: fixed;
+  bottom: 0;
+  left: 0;
+  */
+  width: 100%;
+  margin-top: auto;
+  background-color: #222e62;
+  font-family: 'Ysabeau SC', sans-serif;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+}
+
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .contact {
+    text-align: left;
+  }
+  
+  .subscribe {
+    text-align: right;
+  }
+  
+  .text {
+    font-size: 14px;
+  }
+  
+  .contactList {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .contactList li {
+    font-size: 12px;
+    margin-bottom: 6px;
+  }
+  
+  .subscribe form {
+    display: flex;
+    align-items: center;
+  }
+  
+  .input {
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    margin-right: 8px;
+    width: 120px;
+  }
+  
+  .button {
+    padding: 8px 16px;
+    border-radius: 4px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #555;
+  }
+  
+  .bottomBar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 12px;
+    text-align: center; /* Centraliza o conteúdo */
+  }
+  
+  
+  .nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav li {
+    margin-right: 16px;
+  }
+  
+  .nav a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  
